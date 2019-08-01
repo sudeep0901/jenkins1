@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'set'
                 bat 'set'
-                bat mvn --version
+                bat 'mvn --version'
             }
         }
         stage("Test") {
